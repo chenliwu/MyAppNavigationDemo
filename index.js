@@ -3,4 +3,6 @@ import App from './App';
 
 import TabView from './src/TabView';
 
-AppRegistry.registerComponent('MyAppNavigationDemo', () => TabView);
+import MainTabPage from './src/MainTabPage';
+
+AppRegistry.registerComponent('MyAppNavigationDemo', () => MainTabPage);
